@@ -1,0 +1,17 @@
+<h1>Message Page</h1>
+
+<div> 
+    <table class="table table-dark">
+      <tr>
+        <th>Your messages</th>
+      </tr>
+      <tr ng-repeat="x in messages">
+        <td ng-click="details($index)" >{{ x.title }}</td><br>
+        <td>
+          <!-- <button type="button" ng-click="details($index)" class="btn btn-info btn-lg">
+            <span class="glyphicon glyphicon-star"></span>Save Job
+          </button> -->
+        </td>
+      </tr>
+    </table>
+  </div>

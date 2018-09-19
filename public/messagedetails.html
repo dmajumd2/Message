@@ -1,0 +1,38 @@
+<h1>Your message details</h1>
+
+<div> 
+    <table class="table-dark" style="border-radius: 15px;">
+      <tr>
+          <td> Recipient:- {{ messages.recipient }}</td>
+     </tr>
+     <tr>
+            <td> Sender:- {{ messages.sender }}</td>
+     </tr>
+        <tr>
+                <td>Description:- {{ messages.description }}</td>
+        </tr>
+        <tr>
+            <td>Created at:- {{ messages.created_at }}</td>
+        </tr>
+        <tr>
+            <td>Important:- {{ messages.important }}</td>
+        </tr>
+    </table>
+
+    <table class="table-dark" style="border-radius: 15px; float:right;">
+              <tr>
+                      <td>{{ reply }}</td>
+              </tr>
+    </table>
+
+    <div style="margin-top: 20px;">
+    <button class="btn btn-primary" ng-click="GoBack()" type="submit">Go Back</button>
+    <button class="btn btn-success" ng-click="important()" type="submit">Mark as Important</button>
+    <button class="btn btn-danger" ng-click="delete()" type="submit">Delete Message</button>
+    <div>
+    <div class="form-group">
+    <label for="reply">Reply:</label>
+    <textarea type="reply" id="inputReply" rows="3" ng-model="re.reply" name="reply" class="form-control"></textarea>
+    </div>
+    <button class="btn btn-primary" ng-click="reply(re)" type="submit">Reply Message</button>
+</div>

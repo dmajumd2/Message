@@ -1,0 +1,59 @@
+
+<h1>Update Profile</h1>
+
+<form name="myForm">
+        <div class="form-row">
+          
+          <div class="col-md-4 mb-3">
+            <div class="form-group">
+            <label for="validationServer01">Username</label>
+            <input type="text" name="username" ng-model="regform.username" class="form-control" id="validationServer01" placeholder="Username" required>
+            <span style="color:red" ng-show="myForm.username.$touched && myForm.username.$invalid">Username is required.</span>            
+          </div>
+
+        </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationServer02">Password</label>
+            <input type="text" name="password" ng-model="regform.password" class="form-control" id="validationServer02" placeholder="Password" required>
+            <span style="color:red" ng-show="myForm.password.$touched && myForm.password.$invalid">Username is required.</span>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationServer02">Firstname</label>
+            <input type="text" name="firstname" ng-model="regform.firstname" class="form-control" id="validationServer02" placeholder="firstname" required>
+            <span style="color:red" ng-show="myForm.firstname.$touched && myForm.firstname.$invalid">First name is required.</span>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationServer02">Lastname</label>
+            <input type="text" name="lastname" ng-model="regform.lastname" class="form-control" id="validationServer02" placeholder="lastname" required>
+            <span style="color:red" ng-show="myForm.lastname.$touched && myForm.lastname.$invalid">Last name is required.</span>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationServerUsername">Email</label>
+            <div class="input-group">
+              <input type="text" name="email" ng-model="regform.email" class="form-control" id="validationServerUsername" placeholder="Email" aria-describedby="inputGroupPrepend3" required>
+              <span style="color: red" ng-show="myForm.email.$touched && myForm.email.$invalid">Email is required.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-row">
+            <div class="col-md-6 mb-3">
+            <label for="validationServer03">Phone number</label>
+            <input type="text" name="phone" ng-model="regform.phone" class="form-control" id="validationServer03" placeholder="Phone number" required>
+            <span style="color:red" ng-show="myForm.phone.$touched && myForm.phone.$invalid">Phone number is required.</span> 
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationServer03">Location</label>
+            <input type="text" name="location" ng-model="regform.location" class="form-control" id="validationServer03" placeholder="City" required>
+            <span style="color:red" ng-show="myForm.location.$touched && myForm.location.$invalid">Location is required.</span> 
+          </div>
+        </div>
+
+<br><br>
+        <div>
+        <button ng-disabled="myForm.$invalid" class="btn btn-success" ng-click="register(regform)" type="submit">Update Profile</button>
+      </div>
+</form>

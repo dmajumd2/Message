@@ -1,0 +1,82 @@
+  [
+    {
+            "recipient":"User 1",
+            "recipient_img":"http://simpleicon.com/wp-content/uploads/user1.png",
+            "sender":"User 2",
+            "sender_img":"http://simpleicon.com/wp-content/uploads/user1.png",
+            "title":"This is a sample message to User 1.",
+            "description":"This is a sample description to the message which has the above title",
+            "created_at":"2017-01-19 09:45:00",
+            "important":"0"
+    },
+    {
+        "recipient":"User 2",
+        "recipient_img":"http://simpleicon.com/wp-content/uploads/user2.png",
+        "sender":"User 3",
+        "sender_img":"http://simpleicon.com/wp-content/uploads/user2.png",
+        "title":"This is a sample message to User 3.",
+        "description":"This is a sample description to the message which has the above title",
+        "created_at":"2017-01-19 09:45:00",
+        "important":"0"
+    },
+    {
+        "recipient":"User 3",
+        "recipient_img":"http://simpleicon.com/wp-content/uploads/user3.png",
+        "sender":"User 4",
+        "sender_img":"http://simpleicon.com/wp-content/uploads/user3.png",
+        "title":"This is a sample message to User 4.",
+        "description":"This is a sample description to the message which has the above title",
+        "created_at":"2017-01-19 09:45:00",
+        "important":"0"
+    },
+    {
+        "recipient":"User 4",
+        "recipient_img":"http://simpleicon.com/wp-content/uploads/user4.png",
+        "sender":"User 5",
+        "sender_img":"http://simpleicon.com/wp-content/uploads/user4.png",
+        "title":"This is a sample message to User 5.",
+        "description":"This is a sample description to the message which has the above title",
+        "created_at":"2017-01-19 09:45:00",
+        "important":"0"
+    },
+    {
+        "recipient":"Debashish",
+        "recipient_img":"http://simpleicon.com/wp-content/uploads/user4.png",
+        "sender":"Pratik",
+        "sender_img":"http://simpleicon.com/wp-content/uploads/user4.png",
+        "title":"This is a sample message to Debashish.",
+        "description":"This is a sample description to the message which has the above title",
+        "created_at":"2017-01-19 09:45:00",
+        "important":"0"
+    },
+    {
+        "recipient":"Debashish",
+        "recipient_img":"http://simpleicon.com/wp-content/uploads/user5.png",
+        "sender":"Pratik",
+        "sender_img":"http://simpleicon.com/wp-content/uploads/user5.png",
+        "title":"This is a sample message to Debashish3.",
+        "description":"This is a sample description to the message which has the above title",
+        "created_at":"2017-01-19 09:45:00",
+        "important":"0"
+    },
+    {
+        "recipient":"Debashish",
+        "recipient_img":"http://simpleicon.com/wp-content/uploads/user6.png",
+        "sender":"Pratik",
+        "sender_img":"http://simpleicon.com/wp-content/uploads/user6.png",
+        "title":"This is a sample message to Debashish5.",
+        "description":"This is a sample description to the message which has the above title",
+        "created_at":"2017-01-19 09:45:00",
+        "important":"0"
+    },
+    {
+        "recipient":"Debashish",
+        "recipient_img":"http://simpleicon.com/wp-content/uploads/user7.png",
+        "sender":"Pratik",
+        "sender_img":"http://simpleicon.com/wp-content/uploads/user7.png",
+        "title":"This is a sample message to Debashish4.",
+        "description":"This is a sample description to the message which has the above title",
+        "created_at":"2017-01-19 09:45:00",
+        "important":"0"
+    }
+]
